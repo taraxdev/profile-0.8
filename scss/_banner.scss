@@ -1,0 +1,38 @@
+
+.site-main {
+    .site-banner{
+        .site-title{
+            h3{
+                padding-top: 30%;
+                font-weight: 500;
+                &:after{
+                    content: "";
+                    height: 2px;
+                    width: 18vw;
+                    background: #000000;
+                    display: inline-block;
+                    margin-left: 5%;
+                    transform: translateY(-10px);
+                }
+            }
+            h1{
+                font-size: 5rem;
+                span{
+                    color: #435ef5;
+                    
+                }
+            }
+            h4{
+                font-size: 2.6rem;
+                padding: 1rem 0;
+            }
+        }
+        // .site-button{
+        //     padding: 0 145px ;
+        // }
+        .banner-image > img{
+            padding: 4rem 0;
+            width: 90rem;
+        }
+    }
+}

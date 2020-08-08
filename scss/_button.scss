@@ -1,0 +1,34 @@
+// global button
+.button {
+    padding: .8rem 2.2rem;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    font-family:'Roboto', sans-serif;
+    position: relative;
+    border: 1px solid transparent;
+    border-radius: 30px;
+    background: $gradient-color;
+    background-clip: padding-box;
+    color: #fff;
+    transition: .6s ease;
+    box-shadow: $box-shadow;
+    
+    &:hover{
+        background: #fff;
+        background-clip: padding-box;
+        color: #000;
+    }
+    &:after {
+        position: absolute;
+        top: -2px;
+        left: -2px;
+        bottom: -2px;
+        right: -2px;
+        background: $gradient-color;
+        content: '';
+        z-index: -1;
+        border-radius: 30px;
+    }
+}

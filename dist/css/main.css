@@ -1,0 +1,181 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+body, html {
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+}
+
+.title-text {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 50px;
+  line-height: 72px;
+  font-family: 'Poppins' sans-serif;
+}
+
+.header_area .main-menu .navbar .navbar-brand {
+  padding: 0 2rem 0 3rem;
+}
+
+.header_area .main-menu .navbar {
+  padding: 1rem 10rem;
+}
+
+.header_area .main-menu .nav-item .nav-link {
+  font-family: "Poppins", sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  padding: 1.7rem;
+  color: #141313;
+}
+
+.header_area .main-menu .navbar-nav .active a {
+  background: -webkit-gradient(linear, left top, right top, color-stop(0, #4458dc), to(#854fee));
+  background: linear-gradient(90deg, #4458dc 0, #854fee 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.header_area .main-menu .navbar-nav a:hover {
+  background: -webkit-gradient(linear, left top, right top, color-stop(0, #4458dc), to(#854fee));
+  background: linear-gradient(90deg, #4458dc 0, #854fee 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.site-main .site-banner .site-title h3 {
+  padding-top: 30%;
+  font-weight: 500;
+}
+
+.site-main .site-banner .site-title h3:after {
+  content: "";
+  height: 2px;
+  width: 18vw;
+  background: #000000;
+  display: inline-block;
+  margin-left: 5%;
+  -webkit-transform: translateY(-10px);
+          transform: translateY(-10px);
+}
+
+.site-main .site-banner .site-title h1 {
+  font-size: 5rem;
+}
+
+.site-main .site-banner .site-title h1 span {
+  color: #435ef5;
+}
+
+.site-main .site-banner .site-title h4 {
+  font-size: 2.6rem;
+  padding: 1rem 0;
+}
+
+.site-main .site-banner .banner-image > img {
+  padding: 4rem 0;
+  width: 90rem;
+}
+
+.button {
+  padding: .8rem 2.2rem;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  font-family: 'Roboto', sans-serif;
+  position: relative;
+  border: 1px solid transparent;
+  border-radius: 30px;
+  background: -webkit-gradient(linear, left top, right top, color-stop(0, #4458dc), to(#854fee));
+  background: linear-gradient(90deg, #4458dc 0, #854fee 100%);
+  background-clip: padding-box;
+  color: #fff;
+  -webkit-transition: .6s ease;
+  transition: .6s ease;
+  -webkit-box-shadow: 0 10px 30px rgba(57, 56, 61, 0.205);
+          box-shadow: 0 10px 30px rgba(57, 56, 61, 0.205);
+}
+
+.button:hover {
+  background: #fff;
+  background-clip: padding-box;
+  color: #000;
+}
+
+.button:after {
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  bottom: -2px;
+  right: -2px;
+  background: -webkit-gradient(linear, left top, right top, color-stop(0, #4458dc), to(#854fee));
+  background: linear-gradient(90deg, #4458dc 0, #854fee 100%);
+  content: '';
+  z-index: -1;
+  border-radius: 30px;
+}
+
+.site-main .about-area {
+  padding: 8rem 5rem;
+}
+
+.site-main .about-area .app span {
+  display: block;
+  font: normal bold 3rem "Poppins", sans-serif;
+  letter-spacing: 15px;
+}
+
+.site-main .about-area .paragraph .para {
+  padding: 0.5rem 0;
+}
+
+.site-main .about-area .img-fluid {
+  margin: 50px 0;
+}
+
+.brand-area .row {
+  height: 100vh;
+  width: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.brand-area .row .skills__icon {
+  border: 2px solid #000;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 2rem 2rem;
+  display: inline-block;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 30px;
+  overflow: hidden;
+}
+
+.brand-area .row .skills__icon .bx {
+  color: #ff1010;
+  font-size: 64px;
+}
+
+.brand-area .row .skills__icon .skills__name {
+  font-size: 16px;
+  text-align: center;
+  margin: 0 200px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+/*# sourceMappingURL=main.css.map */
