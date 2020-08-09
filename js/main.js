@@ -7,9 +7,9 @@ function navbarFixed() {
         $(window).scroll(function(){
             let scroll = $(window).scrollTop();
             if(scroll>= nav_offset_top){
-                $('.header_area .navbar-nav').addClass('navbar_fixed');
+                $('.header_area .main-menu').addClass('navbar_fixed');
             } else {
-                $('.header_area .navbar-nav').removeClass('navbar_fixed');
+                $('.header_area .main-menu').removeClass('navbar_fixed');
             }
         })
         
