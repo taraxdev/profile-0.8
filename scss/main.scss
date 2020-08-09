@@ -11,17 +11,23 @@
 @import './social';
 @import './responsive';
 
-// navbar
 
-// .navbar_fixed{
-//     position: fixed;
-//     width: 100%;
-//     top: -1px;
-//     padding: 2px;
-//     left: 0;
-//     right: 0;
-//     background: #fff;
-//     box-shadow: $box-shadow;
-//     z-index: 999;
-//     // transition: 1s ease;
-// }
+html {
+    scroll-behavior: smooth;
+  }
+
+
+
+//navbar
+.navbar_fixed{
+    position: fixed;
+    width: 100%;
+    top: -1px;
+    padding: 2px;
+    left: 0;
+    right: 0;
+    background: #fff;
+    box-shadow: $box-shadow;
+    z-index: 999;
+    // transition: 1s ease;
+}

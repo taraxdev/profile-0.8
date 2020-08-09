@@ -303,4 +303,21 @@ body, html {
     margin: 0;
   }
 }
+
+html {
+  scroll-behavior: smooth;
+}
+
+.navbar_fixed {
+  position: fixed;
+  width: 100%;
+  top: -1px;
+  padding: 2px;
+  left: 0;
+  right: 0;
+  background: #fff;
+  -webkit-box-shadow: 0 10px 30px rgba(57, 56, 61, 0.205);
+          box-shadow: 0 10px 30px rgba(57, 56, 61, 0.205);
+  z-index: 999;
+}
 /*# sourceMappingURL=main.css.map */
