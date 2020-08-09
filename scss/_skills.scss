@@ -1,34 +1,60 @@
+
+
 .brand-area{
+    align-items: center;
+    background: $gradient-color;
     .row{
+        
         height: 100vh;
-        width: 100%;
-        align-items: center;
         flex-wrap: wrap;
         justify-content: space-evenly;
-
+        align-items: center;
+        .text-two{
+            font-style: $poppins;
+            color: #fff;
+            h1{
+                font-size: 70px;
+                font-weight: 700;
+            }
+        }
         .skills__icon{
-            border: 2px solid #000;
-            align-items: center;
             padding: 2rem 2rem;
             display: inline-block;
             box-sizing: border-box;
-            border-radius: 30px;
-            overflow: hidden;
-            
-            
-            .bx{
-                color: rgb(255, 16, 16);
-                font-size: 64px;
-                
-                
-            }
+            border-radius: 60px;
+            background: #fff;
             .skills__name{
-                font-size: 16px;
-                text-align: center;
-                margin: 0 200px;
+                display: flex;
                 align-items: center;
                 
-                
+                font-size: 30px;
+                margin: 0 150px;    
+                font-family: $poppins;
+                font-weight: 700 ;
+                color: $primary-text;
+                filter: grayscale(1);
+                .bx{
+                    align-items: center;
+                    // color: $primary-text;
+                    font-size: 60px;
+                    filter: grayscale(1);
+                }
+            }
+            &:hover{
+                box-shadow: $box-shadow-two;
+                transform: scale(1.1);
+                cursor: pointer;
+                transition: transform .4s ease-in-out;
+
+                .skills__name{
+                    filter: grayscale(0);
+                    color: $secondary-color;
+                    
+                    .bx{
+                        filter: grayscale(0);
+                        color: $secondary-color;
+                    }
+                }
             }
         }
     }

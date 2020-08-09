@@ -139,43 +139,168 @@ body, html {
   margin: 50px 0;
 }
 
-.brand-area .row {
-  height: 100vh;
-  width: 100%;
+.brand-area {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  background: -webkit-gradient(linear, left top, right top, color-stop(0, #4458dc), to(#854fee));
+  background: linear-gradient(90deg, #4458dc 0, #854fee 100%);
+}
+
+.brand-area .row {
+  height: 100vh;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
-}
-
-.brand-area .row .skills__icon {
-  border: 2px solid #000;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+.brand-area .row .text-two {
+  font-style: "Poppins", sans-serif;
+  color: #fff;
+}
+
+.brand-area .row .text-two h1 {
+  font-size: 70px;
+  font-weight: 700;
+}
+
+.brand-area .row .skills__icon {
   padding: 2rem 2rem;
   display: inline-block;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  border-radius: 30px;
-  overflow: hidden;
-}
-
-.brand-area .row .skills__icon .bx {
-  color: #ff1010;
-  font-size: 64px;
+  border-radius: 60px;
+  background: #fff;
 }
 
 .brand-area .row .skills__icon .skills__name {
-  font-size: 16px;
-  text-align: center;
-  margin: 0 200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  font-size: 30px;
+  margin: 0 150px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  color: #435ef5;
+  -webkit-filter: grayscale(1);
+          filter: grayscale(1);
+}
+
+.brand-area .row .skills__icon .skills__name .bx {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 60px;
+  -webkit-filter: grayscale(1);
+          filter: grayscale(1);
+}
+
+.brand-area .row .skills__icon:hover {
+  -webkit-box-shadow: 9px 9px 16px rgba(19, 19, 19, 0.6), -9px -9px 16px rgba(15, 15, 15, 0.5);
+          box-shadow: 9px 9px 16px rgba(19, 19, 19, 0.6), -9px -9px 16px rgba(15, 15, 15, 0.5);
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  cursor: pointer;
+  -webkit-transition: -webkit-transform .4s ease-in-out;
+  transition: -webkit-transform .4s ease-in-out;
+  transition: transform .4s ease-in-out;
+  transition: transform .4s ease-in-out, -webkit-transform .4s ease-in-out;
+}
+
+.brand-area .row .skills__icon:hover .skills__name {
+  -webkit-filter: grayscale(0);
+          filter: grayscale(0);
+  color: #854fee;
+}
+
+.brand-area .row .skills__icon:hover .skills__name .bx {
+  -webkit-filter: grayscale(0);
+          filter: grayscale(0);
+  color: #854fee;
+}
+
+.brand-area {
+  height: 100vh;
+}
+
+.brand-area #work {
+  background: #fff;
+}
+
+.brand-area .col-md-4 {
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: px;
+  border-radius: 300px;
+  padding: 0 55px;
+  -webkit-filter: grayscale(1);
+          filter: grayscale(1);
+}
+
+.brand-area .col-md-4:hover {
+  -webkit-box-shadow: #854fee;
+          box-shadow: #854fee;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  cursor: pointer;
+  -webkit-transition: -webkit-transform .4s ease-in-out;
+  transition: -webkit-transform .4s ease-in-out;
+  transition: transform .4s ease-in-out;
+  transition: transform .4s ease-in-out, -webkit-transform .4s ease-in-out;
+  -webkit-filter: grayscale(0);
+          filter: grayscale(0);
+}
+
+#about .home__social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 220px;
+}
+
+#about .home__social-icon {
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  margin: 0.6rem 0;
+  font-size: 1.8rem;
+  color: var(--second-color);
+}
+
+#about .home__social-icon:hover {
+  color: #435ef5;
+  -webkit-transform: scale(2.1);
+          transform: scale(2.1);
+  -webkit-transition: -webkit-transform .4s ease-in-out;
+  transition: -webkit-transform .4s ease-in-out;
+  transition: transform .4s ease-in-out;
+  transition: transform .4s ease-in-out, -webkit-transform .4s ease-in-out;
+}
+
+#about .home__social-icon:hover a {
+  padding: 0;
+  margin: 0;
+}
+
+@media only screen and (max-width: 412px) {
+  .header_area .main-menu .navbar {
+    padding: 2%;
+    margin: 0;
+  }
 }
 /*# sourceMappingURL=main.css.map */

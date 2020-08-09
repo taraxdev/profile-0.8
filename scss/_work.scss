@@ -1,0 +1,26 @@
+.brand-area{
+    height: 100vh;
+    
+    #work{
+        background: #fff;
+        
+    }
+    .col-md-4{
+        
+        justify-content: space-evenly;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        margin-left: px;
+        border-radius: 300px;
+        padding: 0 55px;
+        filter: grayscale(1);
+        
+        &:hover{
+            @include effect();
+            
+            filter: grayscale(0);
+            
+        }
+        
+    }
+}
